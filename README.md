@@ -1,12 +1,12 @@
-
-<h2 align="left">Hi 👋! I am Shubham. <br>I code therefore I am...occasionally functional.
-<br>
-<a href="https://shubhamkadam.vercel.app/" target="_blank">
-    My Portfolio
-  <img src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-4/24/link-256.png" height="20px" width="20px" alt="link"  />
-</a>
-</h2>
-
+<div>
+  <h2 align="left">Hi 👋! I am Shubham. <br>I code therefore I am...occasionally functional.</h2>
+  <h2>
+	  <a href="https://shubhamkadam.vercel.app/" target="_blank">
+    			My Portfolio
+  			<img src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-4/24/link-256.png" height="20px" width="20px" alt="link"  />
+		</a>
+	</h2>
+</div>
 
 ###
 
@@ -90,12 +90,10 @@
 - 🌱 Continuous learner in the world of web development.
 - 👨‍💻 Open to new job opportunities.
 - 📧 Contact me via email or LinkedIn.
-<br>
-
+  <br>
 
 <br clear="both">
 <br clear="both">
-
 
 <div align="center">
   <p align = "center">
