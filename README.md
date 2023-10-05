@@ -106,8 +106,6 @@ Hi 👋! I am Shubham. <br>I code therefore I am...occasionally functional.
 
 <br clear="both">
 
-<!--
-	<img src="https://raw.githubusercontent.com/h-r-wells2/h-r-wells2/output/snake.svg" alt="Snake animation" />
--->
+<img src="https://raw.githubusercontent.com/h-r-wells2/h-r-wells2/output/snake.svg" alt="Snake animation" />
 
 ###
