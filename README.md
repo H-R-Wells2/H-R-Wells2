@@ -82,7 +82,7 @@ Hi 👋! I am Shubham. <br>I code therefore I am...occasionally functional.
 
 - 💻 Proficient in React.js and JavaScript.
 - 🛠️ Experienced in MERN (MongoDB, Express.js, React.js, Node.js) stack.
-- 🌐 Working with Next.js for server-side rendering.
+- 🌐 Working with Next.js 14 for server-side rendering.
 - 🚀 Passionate about web application development.
 - 💡 Always seeking to solve real-world problems.
 - 🏆 Developed multiple projects with impressive outcomes.
