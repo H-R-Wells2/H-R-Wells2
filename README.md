@@ -1,11 +1,12 @@
 <h2>
-Hi 👋! I am Shubham. <br>I code therefore I am...occasionally functional.
-<br>
-<a href="https://shubhamkadam.vercel.app/" target="_blank">
-    My Portfolio
-  <img src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-4/24/link-256.png" height="20px" width="20px" alt="link"  />
-</a>
+  Hi 👋! I am Shubham. <br>
+  I code, therefore I am... occasionally functional. <br>
 </h2>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=plastic&logo=vercel&logoColor=white)](https://shubhamkadam.vercel.app/)
+
+
+
 
 ###
 
