@@ -40,11 +40,12 @@ jobs:
             include_all_commits=true&
             hide_border=true&
             bg_color=0D1117&
-            title_color=FFFFFF&
-            text_color=8B949E&
+            title_color=F0C14B&
+            text_color=C9D1D9&
             icon_color=F0C14B&
-            ring_color=F0C14B&
-            border_radius=10
+            border_color=30363D&
+            border_radius=10&
+            line_height=25
 
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -84,7 +85,7 @@ jobs:
           options: >-
             user=${{ github.repository_owner }}&
             background=0D1117&
-            border=0D1117&
+            border=30363D&
             stroke=30363D&
             ring=F0C14B&
             fire=F0C14B&
@@ -92,12 +93,13 @@ jobs:
             sideNums=FFFFFF&
             currStreakLabel=F0C14B&
             sideLabels=8B949E&
-            dates=8B949E&
+            dates=6E7681&
             hide_border=true&
+            border_radius=10&
             card_width=495&
             card_height=195&
             disable_animations=true
-
+      
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 

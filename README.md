@@ -186,19 +186,13 @@ I also work with:
 
 <img
   src="./profile/stats.svg"
-  width="32%"
+  width="48%"
   alt="GitHub Statistics"
 />
 
 <img
-  src="./profile/top-langs.svg"
-  width="32%"
-  alt="Most Used Languages"
-/>
-
-<img
   src="./profile/streak.svg"
-  width="32%"
+  width="48%"
   alt="GitHub Streak"
 />
 
@@ -282,4 +276,3 @@ I prefer learning by **building real things**, solving actual problems and conti
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0D1117" width="100%"/>
 
 </div>
-```
