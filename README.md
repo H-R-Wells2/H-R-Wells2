@@ -184,9 +184,23 @@ I also work with:
 
 <div align="center">
 
-<img src="./profile/stats.svg" height="180" alt="GitHub Statistics"/>
+<img
+  src="./profile/stats.svg"
+  width="32%"
+  alt="GitHub Statistics"
+/>
 
-<img src="./profile/top-langs.svg" height="180" alt="Top Languages"/>
+<img
+  src="./profile/top-langs.svg"
+  width="32%"
+  alt="Most Used Languages"
+/>
+
+<img
+  src="./profile/streak.svg"
+  width="32%"
+  alt="GitHub Streak"
+/>
 
 </div>
 
@@ -198,18 +212,8 @@ I also work with:
 
 <picture>
 
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./profile/github-snake-dark.svg"
-  />
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./profile/github-snake.svg"
-  />
-
   <img
-    src="./profile/github-snake.svg"
+    src="./profile/github-snake-dark.svg"
     alt="GitHub Contribution Snake"
     width="100%"
   />

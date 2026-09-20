@@ -2,10 +2,8 @@ name: Update Profile Stats
 
 on:
   schedule:
-    # Run once every day at midnight UTC
     - cron: "0 0 * * *"
 
-  # Allow manual execution
   workflow_dispatch:
 
 permissions:
@@ -19,7 +17,7 @@ jobs:
     steps:
 
       # ─────────────────────────────────────────────
-      # Checkout repository
+      # Checkout
       # ─────────────────────────────────────────────
 
       - name: Checkout repository
@@ -27,7 +25,7 @@ jobs:
 
 
       # ─────────────────────────────────────────────
-      # Generate GitHub Stats
+      # GitHub Stats
       # ─────────────────────────────────────────────
 
       - name: Generate GitHub Stats
@@ -37,6 +35,7 @@ jobs:
 
           options: >-
             username=${{ github.repository_owner }}&
+            theme=dark&
             show_icons=true&
             include_all_commits=true&
             hide_border=true&
@@ -48,12 +47,11 @@ jobs:
             border_radius=10
 
           path: profile/stats.svg
-
           token: ${{ secrets.GITHUB_TOKEN }}
 
 
       # ─────────────────────────────────────────────
-      # Generate Top Languages
+      # Most Used Languages
       # ─────────────────────────────────────────────
 
       - name: Generate Top Languages
@@ -63,6 +61,7 @@ jobs:
 
           options: >-
             username=${{ github.repository_owner }}&
+            theme=dark&
             layout=compact&
             langs_count=8&
             hide_border=true&
@@ -72,12 +71,39 @@ jobs:
             border_radius=10
 
           path: profile/top-langs.svg
-
           token: ${{ secrets.GITHUB_TOKEN }}
 
 
       # ─────────────────────────────────────────────
-      # Generate HRWells Contribution Snake
+      # GitHub Streak
+      # ─────────────────────────────────────────────
+
+      - name: Generate GitHub Streak
+        uses: zients/github-readme-streak-stats@v2
+        with:
+          options: >-
+            user=${{ github.repository_owner }}&
+            background=0D1117&
+            border=0D1117&
+            stroke=30363D&
+            ring=F0C14B&
+            fire=F0C14B&
+            currStreakNum=FFFFFF&
+            sideNums=FFFFFF&
+            currStreakLabel=F0C14B&
+            sideLabels=8B949E&
+            dates=8B949E&
+            hide_border=true&
+            card_width=495&
+            card_height=195&
+            disable_animations=true
+
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+
+      # ─────────────────────────────────────────────
+      # Contribution Snake
       # ─────────────────────────────────────────────
 
       - name: Generate Contribution Snake
@@ -94,7 +120,7 @@ jobs:
 
 
       # ─────────────────────────────────────────────
-      # Commit Everything
+      # Commit generated files
       # ─────────────────────────────────────────────
 
       - name: Commit generated assets
