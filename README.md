@@ -185,15 +185,14 @@ I also work with:
 <div align="center">
 
 <img
-  src="./profile/stats.svg"
+  src="https://ghstats.dev/api/card?username=h-r-wells2&theme=gruvbox&hide=prs%2Cissues%2Cavg%2Ctrend%2Cgrade"
   width="48%"
   alt="GitHub Statistics"
 />
-
 <img
-  src="./profile/streak.svg"
+  src="https://ghstats.dev/api/langs?username=h-r-wells2&theme=gruvbox&layout=vertical_list"
   width="48%"
-  alt="GitHub Streak"
+  alt="Top Languages"
 />
 
 </div>
@@ -220,28 +219,11 @@ I also work with:
 
 # 💻 Developer Mode
 
-```text
-┌─────────────────────────────────────────────┐
-│                                             │
-│  $ git status                               │
-│                                             │
-│  On branch main                             │
-│  Your branch is up to date with 'origin'.   │
-│                                             │
-│  Changes not staged for commit:             │
-│                                             │
-│      modified:   ideas.md                   │
-│      modified:   projects.md                │
-│      modified:   sleep.schedule             │
-│                                             │
-│  $ git add .                                │
-│  $ git commit -m "another idea at 2AM"      │
-│  $ git push                                 │
-│                                             │
-│  🚀 Everything shipped.                     │
-│                                             │
-└─────────────────────────────────────────────┘
-```
+<img
+    src="./profile/developer-mode.svg"
+    alt="GitHub Contribution Snake"
+    width="100%"
+  />
 
 ---
 
@@ -271,8 +253,8 @@ I prefer learning by **building real things**, solving actual problems and conti
 <img src="https://img.shields.io/badge/Get%20In%20Touch-FFFFFF?style=for-the-badge&logo=gmail&logoColor=111111"/>
 </a>
 
-<br><br>
+<br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0D1117" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=f0c14b" width="100%"/>
 
 </div>
